@@ -43,12 +43,9 @@
     <div class="profissional">
         <h1>Cadastre-se como profissional</h1>
         <form id="form-profissional">
-            <div>
                 <label for="nome_empregador">Nome:</label>
                 <input id="nome_empregador" name="nome" placeholder="Insira seu nome completo"><br>
                 <label for="email_empregador">E-mail:</label>
-            </div>
-            <div>
                 <input id="email_empregador" type="email" name="email" placeholder="Insira seu e-mail"><br>
                 <label for="senha_empregador">Senha:</label>
                 <input id="senha_empregador" type="password" name="senha" placeholder="Insira a sua senha">
@@ -56,17 +53,13 @@
                     onclick="togglePassword('senha_empregador')"> Mostrar senha<br>
                 <label for="confirma_senha_empregador">Confirmar senha:</label>
                 <input id="confirma_senha_empregador" type="password" name="confirma_senha"
-                    placeholder="Insira novamente a sua senha">
-            </div><br>
-            <div>
+                    placeholder="Insira novamente a sua senha"><br>
                 <label for="cpf_empregador">CPF:</label>
                 <input id="cpf_empregador" type="text" name="cpf" maxlength="14" placeholder="000.000.000-00"><br>
                 <label for="celular_empregador">Celular:</label>
                 <input type="text" id="celular_empregador" name="celular" maxlength="15"
                     placeholder="(00) 00000-0000"><br>
                 <input type="submit" value="Enviar Cadastro">
-            </div>
-    </div>
 
     <script>
         function mascara(input, formato) {
